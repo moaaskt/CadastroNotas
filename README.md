@@ -2,6 +2,14 @@
 
 Um sistema simples de cadastro de alunos desenvolvido em JavaScript, HTML e CSS. O sistema permite cadastrar alunos, calcular a média aritmética de suas notas e exibir se foram aprovados ou reprovados.
 
+
+<p align="center">
+<a href=""><img src="https://uploaddeimagens.com.br/images/004/467/589/original/responsivo.png?1684197208" alt="Captura-de-tela-2022-09-07-200659" height="220px"></a>
+  
+  
+</p>
+
+
 ## Funcionalidades
 
 - Cadastro de alunos com nome e notas.
