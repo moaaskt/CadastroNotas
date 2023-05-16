@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cadastro de Estudantes</h2>
+    <div class="form-container">
+        Nome do estudante: <input type="text" id="nomeInput">
+        Nota 1: <input type="text" id="nota1Input">
+        Nota 2: <input type="text" id="nota2Input">
+        Nota 3: <input type="text" id="nota3Input">
+        <button onclick="cadastrarEstudante()">Cadastrar</button>
+        <button onclick="limparCampos()">Limpar Campos</button>
+    </div>
+    <h2>Lista de Alunos Cadastrados</h2>
+    <table>
+        <tr>
+            <th>Nome do Estudante</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            <th>Média</th>
+            <th>Situação</th>
+        </tr>
+        <tbody id="listaAlunos"></tbody>
+    </table>
+
+    
+    <div class="alunos-container">
+        <ul id="listaAlunos"></ul>
+    </div>
+    <button class="limpar-alunos-button" onclick="limparAlunos()">Limpar Alunos</button>
+
+
+    <script src="java.js"></script>
+</body>
+</html>
