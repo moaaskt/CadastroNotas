@@ -46,7 +46,7 @@ O sistema utiliza CSS para estilização básica. Caso queira personalizar o vis
 
 Contribuições são bem-vindas! Se você encontrar algum problema, tiver sugestões ou quiser adicionar novos recursos, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-MIT License
+## MIT License
 ===========
 
 Direitos Autorais (c) 2023 Moacir Da Silva Neto
