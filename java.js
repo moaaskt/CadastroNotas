@@ -74,6 +74,21 @@ function toggleDarkMode() {
   toggleNight.addEventListener('change', toggleDarkMode);
 
 
+
+// function adicionarAlunoLista(aluno) {
+//     var lista = document.getElementById("listaAlunos");
+//     var itemLista = document.createElement("li");
+//     itemLista.innerHTML = aluno.nome + " - Nota: " + aluno.media + " - <span style='color: " + aluno.cor + "'>" + aluno.situacao + "</span>";
+//     lista.appendChild(itemLista);
+// }
+
+function limparCampos() {
+    document.getElementById("nomeInput").value = "";
+    document.getElementById("nota1Input").value = "";
+    document.getElementById("nota2Input").value = "";
+    document.getElementById("nota3Input").value = "";
+}
+
 function limparAlunos() {
     var tabela = document.getElementById("listaAlunos");
     tabela.innerHTML = "";
