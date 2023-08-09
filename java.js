@@ -54,26 +54,25 @@ function adicionarAlunoTabela(aluno) {
     situacaoCell.style.color = aluno.cor;
     if (aluno.situacao === "Aprovado") {
         situacaoCell.classList.add("aprovado");
+        alert("o aluno " + aluno.nome + " foi aprovado")
     } else {
         situacaoCell.classList.add("reprovado");
+        alert("o aluno " + aluno.nome + " foi reprovado")
     }
 
     limparCampos()
 }
 
-// function adicionarAlunoLista(aluno) {
-//     var lista = document.getElementById("listaAlunos");
-//     var itemLista = document.createElement("li");
-//     itemLista.innerHTML = aluno.nome + " - Nota: " + aluno.media + " - <span style='color: " + aluno.cor + "'>" + aluno.situacao + "</span>";
-//     lista.appendChild(itemLista);
-// }
 
-function limparCampos() {
-    document.getElementById("nomeInput").value = "";
-    document.getElementById("nota1Input").value = "";
-    document.getElementById("nota2Input").value = "";
-    document.getElementById("nota3Input").value = "";
-}
+function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+  }
+  
+  // Vincule a função ao botão de alternância
+  const toggleNight = document.getElementById('toggleNight');
+  toggleNight.addEventListener('change', toggleDarkMode);
+
 
 function limparAlunos() {
     var tabela = document.getElementById("listaAlunos");
